@@ -21,15 +21,20 @@
 <body>
         
     <header class="navbar">
-        <div class="logo"><img src="image/Design sem nome (13).png" alt="logo"></div>
+        <div class="logo"><img src="image/Eco_Aventura__1_-removebg-preview.png" alt="logo"></div>
         <nav>
-            <a href="#">Pontos turísticos</a>
-            <a href="#">Seja membro</a>
-            <a href="#">Local</a>
+            <ul>
+                <li><a href="#cards-section">Pontos turísticos</a></li>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#mapa-section">Local</a></li>
+            </ul>
+            
+            
+            
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero-text">
             <h1>Explore o coração<br>da trilha</h1>
         </div>
@@ -45,7 +50,7 @@
     </section>
 
 
-    <section class="cards-section">
+   <section id="cards-section" class="cards-section">
         <div class="card">
             <img src="image/Rectangle 6.png" alt="pedra">
             <div class="card-info">
@@ -74,7 +79,7 @@
         </div>
     </section>
 
-    <section class="sobre">
+    <section class="sobre" id="sobre">
     <h2>SOBRE NÓS</h2>
 
     <div class="sobre-container">
@@ -109,7 +114,7 @@
                     Todos os tranportes,
                     Guia, Ingressos conforme o roteiro.
                 </p>
-                <button>SEJA MEMBRO</button>
+                <button><a href="#hero">SEJA MEMBRO</a></button>
             </div>
 
             <div class="texto-sobre">
@@ -132,7 +137,7 @@
     </div>
 </section>
 
-<section class="mapa-section">
+<section class="mapa-section" id="mapa-section">
     <img src="image/mapa-da-Serra-Mantiqueira-Tombamento-Perimetro 1.png" class="mapa" alt="">
     <p class="legenda">
         Seu próximo ponto de partida está aqui: visualize no mapa a rede de aventuras
